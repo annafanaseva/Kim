@@ -1,0 +1,142 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+
+.header {
+    margin: 0px;
+}
+
+.hero {
+    height: 595px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero__image {
+    background-image: url("./img/image.png");
+    height: 595px;
+    width: 294px;
+    background-repeat: no-repeat;
+    margin: 0px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.image-block__title {
+    margin-top: 0px;
+    padding-top: 27px;
+}
+
+.title__top{
+    text-align: center;
+    padding: 18px 100px 22px 13px;
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 11px;
+    background: #DCBDE9;
+    margin: 0px 27px 0px 16px;
+}
+
+.title__bottom {
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 11px;
+    background: #DCBDE9;
+    padding: 18px 100px 23px 13px;
+    margin: 0px 0px 0px 32px;
+}
+
+.image-block__text {
+    background: black;
+    opacity: 90%;
+    width: 274px;
+    height: 220px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+
+}
+
+.image-block__quote {
+    margin-left: 22px;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: 200;
+    color: white;
+    margin-top: 40px;
+}
+
+.image-block__author {
+    margin-left: 22px;
+    font-size: 17px;
+    font-family: Arial;
+    text-align: left;
+    font-weight: 200;
+    color: white;
+}
+
+.text {
+    height: 595px;
+    padding-top: 8px;
+}
+
+.text__wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.text__block {
+    margin: 8px;
+    width: 238px;
+    height: 222px;
+    background-color: #F5F5F5;
+    padding-top: 15px;
+    padding-left: 12px;
+}
+
+.text__title {
+    margin: 0px;
+    color: black;
+    font-weight: 600;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.text__info {
+    margin-top: 15px;
+    color: black;
+    font-weight: 200;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.text__bottom {
+    margin-top: 7px;
+    color: black;
+    font-weight: 200;
+    font-family: Arial;
+    font-size: 12px;
+    height: 52px;
+    border-top: 1px solid #DCDCDC;
+    padding-left: 16px;
+    padding-top: 20px;
+}
+
